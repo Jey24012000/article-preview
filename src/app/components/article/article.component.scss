@@ -1,0 +1,152 @@
+
+
+.image-container{
+  display: inline-block;
+  width: 100%;
+  height: 200px;
+  background-image: url('../../../assets/images/drawers.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.info-container{
+  min-width: 320px;
+  max-width: 375px;
+  height: auto;
+
+    .info--description-container{
+      padding: 32px 24px;
+
+        .description--title{
+          margin-bottom: 16px;
+          font-size: 1.6rem;
+          color: var(--title-color);
+        }
+        .description--description{
+          line-height: 2.0rem;
+          color: var(--info-color);
+        }
+
+    }
+
+    .info--autor-container{
+      width: 100%;
+      height: 60px;
+      padding: 0 24px;
+      display: grid;
+      grid-template-columns: 1fr 20fr 1fr;
+      align-items: center;
+      padding-bottom: 16px;
+
+        .autor--avatar{
+          display: inline-block;
+          width: 32px;
+          height: 32px;
+          margin-right: 12px;
+          background-image: url('../../../assets/images/avatar-michelle.jpg');
+          background-image: no-repeat;
+          background-size: cover;
+          background-position: center;
+          border-radius: 50%;
+        }
+        .autor--info{
+            .autor--info-name{
+              color: var(--title-color);
+            }
+            .autor--info-date{
+              color: var(--info-color);
+            }
+        }
+
+
+    }
+    .autor-share{
+
+      border: none;
+      border-radius: 50%;
+      padding: 6px;
+      background-color: var(--article-color);
+      cursor: pointer;
+
+    }
+    .logo-config{
+      display: inline-block;
+      width: 15px;
+      height: 13px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    .share{
+      background-image: url('../../../assets/images/icon-share.svg');
+    }
+
+    .social-media-container{
+      background-color: var(--title-color);
+      width: 100%;
+      height: 60px;
+      padding: 16px 24px;
+      display: grid;
+      grid-template-columns: 1fr 20fr 1fr;
+      align-items: center;
+      border-bottom-left-radius: 12px;
+      border-bottom-right-radius: 12px;
+      .palabra-share{
+        color: var(--info-color);
+        letter-spacing: 0.4rem;
+      }
+
+    }
+    .social-config{
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    .social-media--logo{
+      display: flex;
+      justify-content: space-around;
+    }
+    .facebook{
+      background-image: url('../../../assets/images/icon-facebook.svg');
+    }
+    .twitter{
+      background-image: url('../../../assets/images/icon-twitter.svg');
+    }
+    .pinterest{
+      background-image: url('../../../assets/images/icon-pinterest.svg');
+    }
+    .share-container{
+      border: none;
+      border-radius: 50%;
+      margin-left: 70px;
+      padding: 6px;
+      background-color: var(--article-color);
+    }
+    .share-color{
+      background-image: url('../../../assets/images/icon-share.svg');
+      fill: none;
+    }
+    .display-active{
+      display:none;
+    }
+
+}
+
+// @media (min-width:500px) {
+//   .image-container{
+
+//     height: auto;
+//     border-top-right-radius: 0px;
+//     border-bottom-left-radius: 12px
+//   }
+//   .social-media-container{
+//   }
+// }
+
+
+

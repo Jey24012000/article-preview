@@ -1,1 +1,52 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+  --title-color: hsl(217, 19%, 35%);
+  --info-color: hsl(214, 17%, 51%);
+  --background-color: hsl(212, 23%, 69%);
+  --article-color: hsl(210, 46%, 95%);
+}
+
+@import url('https://fonts.google.com/specimen/Manrope');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Manrope', sans-serif;
+}
+html{
+  font-size: 62.5%;
+}
+
+body{
+
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  padding: 60px 30px;
+
+}
+app-root{
+  min-width: 320px;
+  max-width: 375px;
+  height: auto;
+  display: grid;
+  background-color: white;
+  border-radius: 12px;
+  font-size: 1.4rem;
+}
+
+// @media  (min-width:500px) {
+//   app-root{
+//     max-width: none;
+//     app-article{
+//       display: grid;
+//       grid-template-columns: 2fr 3fr;
+//       grid-template-rows: 1fr;
+
+
+//     }
+//   }
+
+
+// }

@@ -1,0 +1,41 @@
+
+<div class="image-container">
+
+</div>
+<div class="info-container">
+  <div class="info--description-container">
+    <h3 class="description--title">
+      Shift the overall look and feel by adding these wonderful
+      touches to furniture in your home
+    </h3>
+    <p class="description--description">
+      Ever been in a room and felt like something was missing? Perhaps
+      it felt slightly bare and uninviting. I’ve got some simple tips
+      to help you make any room feel complete.
+    </p>
+  </div>
+
+  <div class="info--autor-container" [class.display-active]="estatus">
+    <span class="autor--avatar"></span>
+    <div class="autor--info">
+      <h4 class="autor--info-name">Michelle Appleton</h4>
+      <p class="autor--info-date">28 Jun 2020</p>
+    </div>
+
+    <button class="autor-share" (click)="toggleBtn()">
+      <span class="logo-config share"></span>
+    </button>
+  </div>
+
+  <div class="social-media-container" [class.display-active]="estatus2">
+    <p class="palabra-share">SHARE</p>
+    <div class="social-media--logo">
+      <a href="https://www.facebook.com/groups/616801626003122" target="_blank"><span class="social-config facebook"></span></a>
+      <a href="https://twitter.com/Chivas" target="_blank"><span class="social-config twitter"></span></a>
+      <a href="https://www.pinterest.com.mx/search/pins/?q=girasoles&rs=typed" target="_blank"><span class="social-config pinterest"></span></a>
+    </div>
+    <button class="share-container" (click)="toggleBtn()">
+      <span class="logo-config share-color"></span>
+    </button>
+  </div>
+</div>
